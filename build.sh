@@ -1,0 +1,1 @@
+docker build -t dev.local/hello-node:1.0.0 .
