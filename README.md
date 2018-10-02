@@ -22,5 +22,5 @@ docker build -t dev.local/hello-node:1.0.0 .
 This will run the app as a Kubernetes deployment with 3 instances, exposed on http://localhost:30100/  
 (assumes docker image available)
 ```
-kubectl apply -f k8s-config
+kubectl apply -f config
 ```
